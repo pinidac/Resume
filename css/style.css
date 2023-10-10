@@ -1,6 +1,6 @@
 body{
 
-   background-image: url("../images/11.jpg");
+   background-image: url("../images/12.jpg");
  		background-repeat: no-repeat;
     background-color: #f9f9fd;
 }
@@ -57,8 +57,11 @@ h2{
 .By{
 line-height: 30px;
 }
-h2{
+
+h4{
 font-family: 'Prompt', sans-serif;
+   color : #627cff;
+  text-shadow: 2px 2px #555866;
 }
 h5{
 font-family: 'Prompt', sans-serif;
@@ -200,11 +203,5 @@ ul {
 }
 
 .bg1{
-background-color: #343843;
-}
-.bg2{
-background-color: #565c6f;
-}
-.bg3{
-background-color: #3f4451;
-}
+  background-color: white;}
+
