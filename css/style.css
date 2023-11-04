@@ -205,3 +205,26 @@ ul {
 .bg1{
   background-color: white;}
 
+/* เปลี่ยนสีพื้นหลังและสีข้อความของปุ่ม nav-link */
+.navlink {
+  background-color: #f9f9fd ; /* สีพื้นหลังของปุ่ม */
+  color: blue; /* สีข้อความของปุ่ม */
+  border: none; /* ลบเส้นขอบของปุ่ม (ถ้ามี) */
+  border-radius: 15px 15px 15px 15px;  /* ลบมุมขอบของปุ่ม (ถ้ามี) */
+  padding: 10px 20px; /* ขนาดของขอบของปุ่ม */
+}
+
+/* เมื่อเม้าส์ hover บนปุ่ม */
+.navlink:hover {
+  background-color: blue; /* สีพื้นหลังเมื่อ hover บนปุ่ม */
+  color: white;
+}
+
+/* เมื่อปุ่มกำลังถูกคลิก */
+.navlink.active {
+  background-color: #182153; /* สีพื้นหลังเมื่อปุ่มเป็น active */
+ color: white;
+}
+
+
+
